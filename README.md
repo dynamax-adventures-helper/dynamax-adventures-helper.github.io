@@ -3,6 +3,25 @@ Awesome tool to assist people with dynamax adventures hosted on Github Pages
 
 Check it out here [https://dynamax-adventures-helper.github.io/](https://dynamax-adventures-helper.github.io/)
 
+## Features
+- Search/select a dynamax legendary you are going for
+    - see its types, moves, weaknesses, and immunities
+- Tier list of rental counters
+    - SSS tier being 4x weakness move with STAB
+    - SS tier being 4x weaknes move without STAB
+    - S tier being 2x weakness move with STAB
+    - A tier being 2x weakness move without STAB
+- Clicking a Rental Pokemon
+    - Shows types, name, and moveset
+
+
+## Future improvements
+- Update the select/dropdown to be a bit more intuitive
+- Update UI around the Rental Counters
+- Make selecting a rental pokemon on mobile not continue to darken it
+- Update more components to be in Storybook
+
+
 ## Stack
 - React with Nextjs
 - TailwindCSS for styling
@@ -13,9 +32,11 @@ Check it out here [https://dynamax-adventures-helper.github.io/](https://dynamax
 
 [RotomLabs](https://rotomlabs.net/sword-shield/dynamax-adventures-types) was scraped to get which pokemon are in adventures and their moves
 
+> Due to some of the data being scraped, it might not be 100% accurate
+
 ## Running
 `npm run dev` for dev
 
 `npm start` for normal use
 
-
+## Future Enhancmens

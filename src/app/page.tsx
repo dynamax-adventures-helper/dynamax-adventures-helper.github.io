@@ -1,7 +1,5 @@
 'use client';
 import { useState } from "react";
-// import Pokemon from "@/components/pokemon/pokemon";
-// import RentalPokemonContainer from "@/components/rental-pokemon-container/rental-pokemon-container";
 import Autocomplete from "@/components/molecules/AutoComplete/AutoComplete";
 import Pokemon from "@/components/organisms/Pokemon/Pokemon";
 import RentalPokemonContainer from "@/components/organisms/RentalPokemonContainer/RentalPokemonContainer";
@@ -74,7 +72,6 @@ export default function Home() {
 
         </div>
         <div>
-          {/* { value && <hr className="mt-5 solid m-auto w-1/2 border-pokecardtext border" /> } */}
           { value && <RentalPokemonContainer 
             name={value}
           />}

@@ -6,27 +6,40 @@ interface AutocompleteProps {
 }
 
 const AutoComplete: FC<AutocompleteProps> = ({options, onChange}) => {
+    const defaultSize = 5
     const [input, setInput] = useState("");
     const [filteredOptions, setFilteredOptions] = useState<string[]>([]);
-    const [size, setSize] = useState(5);
+    const [size, setSize] = useState(defaultSize);
     return (
         <div className="flex flex-col items-center">
-            <input
-                className="rounded-lg bg-neutral-600 p-1.5 text-neutral-100 w-full max-w-md mt-7"
-                value={input}
-                onChange={event => {
-                    setInput(event.target.value); 
-                    const opts = filterOptions(options, event.target.value)
-                    setFilteredOptions(opts);
-                    setSize(handleSize(opts));
-                }}
-                placeholder="Search for a pokemon"
-                onClick={() => {
-                    if (filteredOptions.length === 0 && !input) {
-                        setFilteredOptions(options)
-                    }
-                }} 
-            />
+            <div className="w-full max-w-md mt-7 relative">
+                <input
+                    type="search"
+                    className="rounded-lg bg-neutral-600 p-1.5 text-neutral-100 w-full"
+                    value={input}
+                    onChange={event => {
+                        setInput(event.target.value); 
+                        const opts = filterOptions(options, event.target.value)
+                        setFilteredOptions(opts);
+                        setSize(handleSize(opts));
+                    }}
+                    placeholder="Select Dynamax Legendary"
+                    onClick={() => {
+                        if (filteredOptions.length === 0 && !input) {
+                            setFilteredOptions(options)
+                        }
+                    }} 
+                />
+                <button className="absolute right-2 top-1.5 text"
+                    onClick={event => {
+                        setInput("");
+                        setSize(defaultSize);
+                        setFilteredOptions([]);
+                    }}
+                >
+                    X
+                </button>
+            </div>
             { filteredOptions.length > 0 &&
                 <select 
                     className="bg-neutral-600 appearance-none w-full max-w-sm absolute mt-16 rounded-b-lg p-1.5" 

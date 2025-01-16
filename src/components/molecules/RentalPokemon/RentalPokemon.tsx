@@ -15,32 +15,36 @@ const RentalPokemon: FC<RentalPokemonProps> = ({pokemon}) => {
 	return (
         <div 
             onClick={() => setShowPokeinfo(showPokeinfo => !showPokeinfo)}
-            // onMouseEnter={() => setShowPokeinfo(true)}
-            // onMouseLeave={() => setShowPokeinfo(false)}
         >
             <Card className="bg-pokecard text-pokecardtext rounded-lg shadow-lg max-w-s hover:brightness-75 cursor-pointer">
-                   { showPokeinfo && <h4 className="text-xl font-bold text-center">{nameSimple}</h4>}
-                    <Image 
-                        src={pokemon.imageUrl} 
-                        alt={nameSimple}
-                        width={75}
-                        height={75}
-                        title={nameSimple}
-                    />
+                <div className="flex flex-col">
+                { showPokeinfo && <h4 className="text-xl font-bold text-center">{nameSimple}</h4>}
+                    <div className="flex justify-center">
+                        <Image 
+                            src={pokemon.imageUrl} 
+                            alt={nameSimple}
+                            width={75}
+                            height={75}
+                            title={nameSimple}
+                        />
+                    </div>
                     { showPokeinfo && (
-                    <div>
+                    <div className="flex justify-center">
                         <TypeContainer
                             types={pokemon.types}
                             style="xs-chip"
                         />
-                    
+                    </div>
+                    )}
+                    { showPokeinfo && (
+                    <div> 
                         <MoveContainer 
                             moves={pokemon.moves}
                             textSize="text-sm"
-                            //chipStyle="no-text-chip"
                         /> 
                     </div>
                     )}
+                </div>
             </Card>
         </div>
     )
