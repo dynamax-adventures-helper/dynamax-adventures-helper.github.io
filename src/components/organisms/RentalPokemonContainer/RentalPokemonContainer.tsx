@@ -3,7 +3,6 @@ import rentalPokemonJson from '@/data/AllRentalPokemonFull.json';
 import legendaryJson from '@/data/AllLegendaryPokemonFull.json';
 import { RentalPokemonData, IRentalPokemon } from "@/types/Pokemon";
 import RentalPokemonBox from "@/components/molecules/RentalPokemonBox/RentalPokemonBox";
-import Toggle from "@/components/atoms/Toggle/Toggle";
 
 interface RentalPokemonContainerProps {
     name: string;
@@ -26,8 +25,8 @@ interface Tiers {
 }
 
 const RentalPokemonContainer: FC<RentalPokemonContainerProps> = ({name}) => {
-    const { weaknesses, immunities } = getPokemonData(name);
-    const rentals = getRentalPokemonCounters(name, weaknesses, immunities);
+    const { weaknesses } = getPokemonData(name);
+    const rentals = getRentalPokemonCounters(name, weaknesses);
 	return (
         <div className="flex flex-col items-center">
             <h2 className="mt-5 font-bold text-3xl text-pokecardtext">Rental Counters</h2>
@@ -53,7 +52,7 @@ const RentalPokemonContainer: FC<RentalPokemonContainerProps> = ({name}) => {
 
 export default RentalPokemonContainer;
 
-function getRentalPokemonCounters(name: string, weaknesses: Weaknesses, immunities: string[]): Tiers {
+function getRentalPokemonCounters(name: string, weaknesses: Weaknesses): Tiers {
     const typesToCheck = weaknesses.Weak2x.concat(weaknesses.Weak4x);
 
     // cut working set down to just pokemon with type advantage or moves that have type advantage
@@ -99,7 +98,7 @@ function getPokemonData(name: string) {
 }
 
 function convertToCounterList(pokemon: RentalPokemonData[]): IRentalPokemon[] {
-    let counters: IRentalPokemon[] = [];
+    const counters: IRentalPokemon[] = [];
     pokemon.forEach(rental => {
         counters.push( {
             name: rental.Name,

@@ -1,10 +1,7 @@
-import { FC, useState } from "react";
+import {useState } from "react";
 
-interface ToggleProps {
-    text?: string;
-}
 
-const Toggle: FC<ToggleProps> = ({text="test"}) => {
+const Toggle = () => {
     const [isChecked, setIsChecked] = useState(false)
   
     const handleCheckboxChange = () => {

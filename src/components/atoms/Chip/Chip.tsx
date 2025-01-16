@@ -4,10 +4,9 @@ interface ChipProps {
 	text: string;
 	style?: string;
     color: string;
-	textHover?: boolean;
 }
 
-const Chip: FC<ChipProps> = ({text, style = "small-chip", color, textHover}) => {
+const Chip: FC<ChipProps> = ({text, style = "small-chip", color}) => {
 	return (
         <div className={style} style={{backgroundColor: color}} >
 			<p>{text}</p>

@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 
 interface AutocompleteProps {
     options: string[]
-    onChange: (event: React.ChangeEvent<{}>, newValue: string) => void
+    onChange: (event: React.ChangeEvent<Element>, newValue: string) => void
 }
 
 const AutoComplete: FC<AutocompleteProps> = ({options, onChange}) => {

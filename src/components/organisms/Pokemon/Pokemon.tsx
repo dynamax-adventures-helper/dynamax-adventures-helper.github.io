@@ -3,7 +3,6 @@ import Image from 'next/image'
 import pokemonJson from '@/data/AllLegendaryPokemonFull.json';
 import Card from '@/components/atoms/Card/Card';
 import TypeContainer from "@/components/molecules/TypeContainer/TypeContainer";
-import Move from "@/components/molecules/Move/Move";
 import MoveContainer from "../MoveContainer/MoveContainer";
 import { PokemonData } from "@/types/Pokemon";
 
