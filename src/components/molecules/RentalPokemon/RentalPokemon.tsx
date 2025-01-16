@@ -12,11 +12,12 @@ interface RentalPokemonProps {
 const RentalPokemon: FC<RentalPokemonProps> = ({pokemon}) => {
     const nameSimple = pokemon.name.split("\n")[0];
     const [showPokeinfo, setShowPokeinfo] = useState(false);
+
 	return (
         <div 
             onClick={() => setShowPokeinfo(showPokeinfo => !showPokeinfo)}
         >
-            <Card className="bg-pokecard text-pokecardtext rounded-lg shadow-lg max-w-s hover:brightness-75 cursor-pointer">
+            <Card className="bg-pokecard text-pokecardtext rounded-lg shadow-lg max-w-s hover:brightness-125 cursor-pointer">
                 <div className="flex flex-col">
                 { showPokeinfo && <h4 className="text-xl font-bold text-center">{nameSimple}</h4>}
                     <div className="flex justify-center">
