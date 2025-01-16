@@ -39,5 +39,3 @@ Check it out here [https://dynamax-adventures-helper.github.io/](https://dynamax
 `npm run dev` for dev
 
 `npm start` for normal use
-
-## Future Enhancmens
