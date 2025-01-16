@@ -1,0 +1,597 @@
+[
+  {
+    "name": "normal",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "rock",
+          "steel"
+        ],
+        "dbl": [],
+        "zero": [
+          "ghost"
+        ]
+      },
+      "defense": {
+        "half": [],
+        "dbl": [
+          "fighting"
+        ],
+        "zero": [
+          "ghost"
+        ]
+      }
+    }
+  },
+  {
+    "name": "fighting",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "flying",
+          "poison",
+          "bug",
+          "psychic",
+          "fairy"
+        ],
+        "dbl": [
+          "normal",
+          "rock",
+          "steel",
+          "ice",
+          "dark"
+        ],
+        "zero": [
+          "ghost"
+        ]
+      },
+      "defense": {
+        "half": [
+          "rock",
+          "bug",
+          "dark"
+        ],
+        "dbl": [
+          "flying",
+          "psychic",
+          "fairy"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "flying",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "rock",
+          "steel",
+          "electric"
+        ],
+        "dbl": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "zero": []
+      },
+      "defense": {
+        "half": [
+          "fighting",
+          "bug",
+          "grass"
+        ],
+        "dbl": [
+          "rock",
+          "electric",
+          "ice"
+        ],
+        "zero": [
+          "ground"
+        ]
+      }
+    }
+  },
+  {
+    "name": "poison",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "poison",
+          "ground",
+          "rock",
+          "ghost"
+        ],
+        "dbl": [
+          "grass",
+          "fairy"
+        ],
+        "zero": [
+          "steel"
+        ]
+      },
+      "defense": {
+        "half": [
+          "fighting",
+          "poison",
+          "bug",
+          "grass",
+          "fairy"
+        ],
+        "dbl": [
+          "ground",
+          "psychic"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "ground",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "bug",
+          "grass"
+        ],
+        "dbl": [
+          "poison",
+          "rock",
+          "steel",
+          "fire",
+          "electric"
+        ],
+        "zero": [
+          "flying"
+        ]
+      },
+      "defense": {
+        "half": [
+          "poison",
+          "rock"
+        ],
+        "dbl": [
+          "water",
+          "grass",
+          "ice"
+        ],
+        "zero": [
+          "electric"
+        ]
+      }
+    }
+  },
+  {
+    "name": "rock",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "fighting",
+          "ground",
+          "steel"
+        ],
+        "dbl": [
+          "flying",
+          "bug",
+          "fire",
+          "ice"
+        ],
+        "zero": []
+      },
+      "defense": {
+        "half": [
+          "normal",
+          "flying",
+          "poison",
+          "fire"
+        ],
+        "dbl": [
+          "fighting",
+          "ground",
+          "steel",
+          "water",
+          "grass"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "bug",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "fighting",
+          "flying",
+          "poison",
+          "ghost",
+          "steel",
+          "fire",
+          "fairy"
+        ],
+        "dbl": [
+          "grass",
+          "psychic",
+          "dark"
+        ],
+        "zero": []
+      },
+      "defense": {
+        "half": [
+          "fighting",
+          "ground",
+          "grass"
+        ],
+        "dbl": [
+          "flying",
+          "rock",
+          "fire"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "ghost",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "dark"
+        ],
+        "dbl": [
+          "ghost",
+          "psychic"
+        ],
+        "zero": [
+          "normal"
+        ]
+      },
+      "defense": {
+        "half": [
+          "poison",
+          "bug"
+        ],
+        "dbl": [
+          "ghost",
+          "dark"
+        ],
+        "zero": [
+          "normal",
+          "fighting"
+        ]
+      }
+    }
+  },
+  {
+    "name": "steel",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "steel",
+          "fire",
+          "water",
+          "electric"
+        ],
+        "dbl": [
+          "rock",
+          "ice",
+          "fairy"
+        ],
+        "zero": []
+      },
+      "defense": {
+        "half": [
+          "normal",
+          "flying",
+          "rock",
+          "bug",
+          "steel",
+          "grass",
+          "psychic",
+          "ice",
+          "dragon",
+          "fairy"
+        ],
+        "dbl": [
+          "fighting",
+          "ground",
+          "fire"
+        ],
+        "zero": [
+          "poison"
+        ]
+      }
+    }
+  },
+  {
+    "name": "fire",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "rock",
+          "fire",
+          "water",
+          "dragon"
+        ],
+        "dbl": [
+          "bug",
+          "steel",
+          "grass",
+          "ice"
+        ],
+        "zero": []
+      },
+      "defense": {
+        "half": [
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "ice",
+          "fairy"
+        ],
+        "dbl": [
+          "ground",
+          "rock",
+          "water"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "water",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "water",
+          "grass",
+          "dragon"
+        ],
+        "dbl": [
+          "ground",
+          "rock",
+          "fire"
+        ],
+        "zero": []
+      },
+      "defense": {
+        "half": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "dbl": [
+          "grass",
+          "electric"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "grass",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "flying",
+          "poison",
+          "bug",
+          "steel",
+          "fire",
+          "grass",
+          "dragon"
+        ],
+        "dbl": [
+          "ground",
+          "rock",
+          "water"
+        ],
+        "zero": []
+      },
+      "defense": {
+        "half": [
+          "ground",
+          "water",
+          "grass",
+          "electric"
+        ],
+        "dbl": [
+          "flying",
+          "poison",
+          "bug",
+          "fire",
+          "ice"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "electric",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "grass",
+          "electric",
+          "dragon"
+        ],
+        "dbl": [
+          "flying",
+          "water"
+        ],
+        "zero": [
+          "ground"
+        ]
+      },
+      "defense": {
+        "half": [
+          "flying",
+          "steel",
+          "electric"
+        ],
+        "dbl": [
+          "ground"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "psychic",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "steel",
+          "psychic"
+        ],
+        "dbl": [
+          "fighting",
+          "poison"
+        ],
+        "zero": [
+          "dark"
+        ]
+      },
+      "defense": {
+        "half": [
+          "fighting",
+          "psychic"
+        ],
+        "dbl": [
+          "bug",
+          "ghost",
+          "dark"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "ice",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "steel",
+          "fire",
+          "water",
+          "ice"
+        ],
+        "dbl": [
+          "flying",
+          "ground",
+          "grass",
+          "dragon"
+        ],
+        "zero": []
+      },
+      "defense": {
+        "half": [
+          "ice"
+        ],
+        "dbl": [
+          "fighting",
+          "rock",
+          "steel",
+          "fire"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "dragon",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "steel"
+        ],
+        "dbl": [
+          "dragon"
+        ],
+        "zero": [
+          "fairy"
+        ]
+      },
+      "defense": {
+        "half": [
+          "fire",
+          "water",
+          "grass",
+          "electric"
+        ],
+        "dbl": [
+          "ice",
+          "dragon",
+          "fairy"
+        ],
+        "zero": []
+      }
+    }
+  },
+  {
+    "name": "dark",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "fighting",
+          "dark",
+          "fairy"
+        ],
+        "dbl": [
+          "ghost",
+          "psychic"
+        ],
+        "zero": []
+      },
+      "defense": {
+        "half": [
+          "ghost",
+          "dark"
+        ],
+        "dbl": [
+          "fighting",
+          "bug",
+          "fairy"
+        ],
+        "zero": [
+          "psychic"
+        ]
+      }
+    }
+  },
+  {
+    "name": "fairy",
+    "damageRelations": {
+      "attack": {
+        "half": [
+          "poison",
+          "steel",
+          "fire"
+        ],
+        "dbl": [
+          "fighting",
+          "dragon",
+          "dark"
+        ],
+        "zero": []
+      },
+      "defense": {
+        "half": [
+          "fighting",
+          "bug",
+          "dark"
+        ],
+        "dbl": [
+          "poison",
+          "steel"
+        ],
+        "zero": [
+          "dragon"
+        ]
+      }
+    }
+  }
+]

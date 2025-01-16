@@ -1,0 +1,2234 @@
+[
+  {
+    "Name": "Articuno",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "ice",
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "ice",
+        "Name": "Ice Beam",
+        "Description": "Has a 10% chance to freeze the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "ice",
+        "Name": "Freeze-dry",
+        "Description": "Super-effective against water.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "flying",
+        "Name": "Hurricane",
+        "Description": "Has a 30% chance to confuse the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "ice",
+        "Name": "Mist",
+        "Description": "Protects the user\u0027s stats from being changed by enemy moves.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "steel",
+        "fire",
+        "electric"
+      ],
+      "Weak4x": [
+        "rock"
+      ]
+    },
+    "Immunities": [
+      "ground"
+    ]
+  },
+  {
+    "Name": "Zapdos",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "electric",
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "electric",
+        "Name": "Thunder",
+        "Description": "Has a 30% chance to paralyze the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "flying",
+        "Name": "Drill Peck",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "flying",
+        "Name": "Brave Bird",
+        "Description": "User receives 1/3 the damage inflicted in recoil.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Agility",
+        "Description": "Raises the user\u0027s Speed by two stages.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "rock",
+        "ice"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "ground"
+    ]
+  },
+  {
+    "Name": "Moltres",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "fire",
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "fire",
+        "Name": "Heat Wave",
+        "Description": "Has a 10% chance to burn the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "flying",
+        "Name": "Wing Attack",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Leer",
+        "Description": "Lowers the target\u0027s Defense by one stage.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "fire",
+        "Name": "Fire Spin",
+        "Description": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "water",
+        "electric"
+      ],
+      "Weak4x": [
+        "rock"
+      ]
+    },
+    "Immunities": [
+      "ground"
+    ]
+  },
+  {
+    "Name": "Mewtwo",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "psychic"
+    ],
+    "Moves": [
+      {
+        "Type": "psychic",
+        "Name": "Psychic",
+        "Description": "Has a 10% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "normal",
+        "Name": "Disable",
+        "Description": "Disables the target\u0027s last used move for 1-8 turns.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "normal",
+        "Name": "Recover",
+        "Description": "Heals the user by half its max HP.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "ice",
+        "Name": "Blizzard",
+        "Description": "Has a 10% chance to freeze the target.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Raikou",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/243.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "electric"
+    ],
+    "Moves": [
+      {
+        "Type": "electric",
+        "Name": "Thunderbolt",
+        "Description": "Has a 10% chance to paralyze the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "normal",
+        "Name": "Howl",
+        "Description": "Raises the user\u0027s Attack by one stage.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "normal",
+        "Name": "Extreme Speed",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Weather Ball",
+        "Description": "If there be weather, this move has doubled power and the weather\u0027s type.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ground"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Entei",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/244.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "fire"
+    ],
+    "Moves": [
+      {
+        "Type": "fire",
+        "Name": "Flamethrower",
+        "Description": "Has a 10% chance to burn the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "normal",
+        "Name": "Scary Face",
+        "Description": "Lowers the target\u0027s Speed by two stages.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "normal",
+        "Name": "Extreme Speed",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dark",
+        "Name": "Crunch",
+        "Description": "Has a 20% chance to lower the target\u0027s Defense by one stage.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ground",
+        "rock",
+        "water"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Suicune",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/245.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "water"
+    ],
+    "Moves": [
+      {
+        "Type": "water",
+        "Name": "Liquidation",
+        "Description": "Has a 20% chance to lower the target\u0027s Defense by one stage.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Extrasensory",
+        "Description": "Has a 10% chance to make the target flinch.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "normal",
+        "Name": "Extreme Speed",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Calm Mind",
+        "Description": "Raises the user\u0027s Special Attack and Special Defense by one stage.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "grass",
+        "electric"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Lugia",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/249.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "psychic",
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "dragon",
+        "Name": "Dragon Pulse",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Extrasensory",
+        "Description": "Has a 10% chance to make the target flinch.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "water",
+        "Name": "Whirlpool",
+        "Description": "Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "rock",
+        "Name": "Ancient Power",
+        "Description": "Has a 10% chance to raise all of the user\u0027s stats by one stage.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ghost",
+        "dark",
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "ground"
+    ]
+  },
+  {
+    "Name": "Ho-Oh",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/250.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "fire",
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "fire",
+        "Name": "Flare Blitz",
+        "Description": "User takes 1/3 the damage inflicted in recoil.  Has a 10% chance to burn the target.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Extrasensory",
+        "Description": "Has a 10% chance to make the target flinch.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fire",
+        "Name": "Sunny Day",
+        "Description": "Changes the weather to sunny for five turns.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "rock",
+        "Name": "Ancient Power",
+        "Description": "Has a 10% chance to raise all of the user\u0027s stats by one stage.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "water",
+        "electric"
+      ],
+      "Weak4x": [
+        "rock"
+      ]
+    },
+    "Immunities": [
+      "ground"
+    ]
+  },
+  {
+    "Name": "Latias",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/380.png",
+    "Ability": "Levitate",
+    "AbilityDescription": "Evades ground moves.",
+    "Types": [
+      "dragon",
+      "psychic"
+    ],
+    "Moves": [
+      {
+        "Type": "normal",
+        "Name": "Reflect Type",
+        "Description": "User becomes the target\u0027s type.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "dragon",
+        "Name": "Dragon Breath",
+        "Description": "Has a 30% chance to paralyze the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Zen Headbutt",
+        "Description": "Has a 20% chance to make the target flinch.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "water",
+        "Name": "Surf",
+        "Description": "Inflicts regular damage and can hit Dive users.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ice",
+        "dragon",
+        "fairy",
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Latios",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/381.png",
+    "Ability": "Levitate",
+    "AbilityDescription": "Evades ground moves.",
+    "Types": [
+      "dragon",
+      "psychic"
+    ],
+    "Moves": [
+      {
+        "Type": "dragon",
+        "Name": "Dragon Dance",
+        "Description": "Raises the user\u0027s Attack and Speed by one stage.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "dragon",
+        "Name": "Dragon Pulse",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Zen Headbutt",
+        "Description": "Has a 20% chance to make the target flinch.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "fighting",
+        "Name": "Aura Sphere",
+        "Description": "Never misses.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ice",
+        "dragon",
+        "fairy",
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Kyogre",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png",
+    "Ability": "Drizzle",
+    "AbilityDescription": "Summons rain that lasts indefinitely upon entering battle.",
+    "Types": [
+      "water"
+    ],
+    "Moves": [
+      {
+        "Type": "water",
+        "Name": "Surf",
+        "Description": "Inflicts regular damage and can hit Dive users.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "normal",
+        "Name": "Body Slam",
+        "Description": "Has a 30% chance to paralyze the target.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "water",
+        "Name": "Aqua Ring",
+        "Description": "Restores 1/16 of the user\u0027s max HP each turn.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "electric",
+        "Name": "Thunder",
+        "Description": "Has a 30% chance to paralyze the target.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "grass",
+        "electric"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Groudon",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png",
+    "Ability": "Drought",
+    "AbilityDescription": "Summons strong sunlight that lasts indefinitely upon entering battle.",
+    "Types": [
+      "ground"
+    ],
+    "Moves": [
+      {
+        "Type": "ground",
+        "Name": "Earthquake",
+        "Description": "Inflicts regular damage and can hit Dig users.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Scary Face",
+        "Description": "Lowers the target\u0027s Speed by two stages.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "fire",
+        "Name": "Lava Plume",
+        "Description": "Has a 30% chance to burn the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fighting",
+        "Name": "Hammer Arm",
+        "Description": "Lowers user\u0027s Speed by one stage.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "water",
+        "grass",
+        "ice"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "electric"
+    ]
+  },
+  {
+    "Name": "Rayquaza",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png",
+    "Ability": "Air Lock",
+    "AbilityDescription": "Negates all effects of weather, but does not prevent the weather itself.",
+    "Types": [
+      "dragon",
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "flying",
+        "Name": "Dragon Ascent",
+        "Description": "Lowers the user\u0027s Defense and Special Defense by one stage after inflicting damage.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dark",
+        "Name": "Brutal Swing",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Extreme Speed",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dragon",
+        "Name": "Twister",
+        "Description": "Has a 20% chance to make the target flinch.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "dragon",
+        "fairy",
+        "rock"
+      ],
+      "Weak4x": [
+        "ice"
+      ]
+    },
+    "Immunities": [
+      "ground"
+    ]
+  },
+  {
+    "Name": "Uxie",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/480.png",
+    "Ability": "Levitate",
+    "AbilityDescription": "Evades ground moves.",
+    "Types": [
+      "psychic"
+    ],
+    "Moves": [
+      {
+        "Type": "psychic",
+        "Name": "Psychic",
+        "Description": "Has a 10% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Future Sight",
+        "Description": "Hits the target two turns later.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Magic Room",
+        "Description": "Negates held items for five turns.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "ghost",
+        "Name": "Shadow Ball",
+        "Description": "Has a 20% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Mesprit",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/481.png",
+    "Ability": "Levitate",
+    "AbilityDescription": "Evades ground moves.",
+    "Types": [
+      "psychic"
+    ],
+    "Moves": [
+      {
+        "Type": "psychic",
+        "Name": "Psychic",
+        "Description": "Has a 10% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fairy",
+        "Name": "Charm",
+        "Description": "Lowers the target\u0027s Attack by two stages.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "fairy",
+        "Name": "Draining Kiss",
+        "Description": "Drains 75% of the damage inflicted to heal the user.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "normal",
+        "Name": "Tri Attack",
+        "Description": "Has a 20% chance to burn, freeze, or paralyze the target.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Azelf",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/482.png",
+    "Ability": "Levitate",
+    "AbilityDescription": "Evades ground moves.",
+    "Types": [
+      "psychic"
+    ],
+    "Moves": [
+      {
+        "Type": "psychic",
+        "Name": "Psychic",
+        "Description": "Has a 10% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fairy",
+        "Name": "Dazzling Gleam",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "dark",
+        "Name": "Nasty Plot",
+        "Description": "Raises the user\u0027s Special Attack by two stages.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "normal",
+        "Name": "Facade",
+        "Description": "Power doubles if user is burned, paralyzed, or poisoned.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Dialga",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/483.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "steel",
+      "dragon"
+    ],
+    "Moves": [
+      {
+        "Type": "normal",
+        "Name": "Slash",
+        "Description": "Has an increased chance for a critical hit.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "rock",
+        "Name": "Ancient Power",
+        "Description": "Has a 10% chance to raise all of the user\u0027s stats by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "steel",
+        "Name": "Flash Cannon",
+        "Description": "Has a 10% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "dragon",
+        "Name": "Dragon Claw",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "fighting",
+        "ground"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "poison"
+    ]
+  },
+  {
+    "Name": "Palkia",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/484.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "water",
+      "dragon"
+    ],
+    "Moves": [
+      {
+        "Type": "normal",
+        "Name": "Slash",
+        "Description": "Has an increased chance for a critical hit.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "water",
+        "Name": "Surf",
+        "Description": "Inflicts regular damage and can hit Dive users.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "rock",
+        "Name": "Ancient Power",
+        "Description": "Has a 10% chance to raise all of the user\u0027s stats by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "dragon",
+        "Name": "Dragon Claw",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "dragon",
+        "fairy"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Heatran",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/485.png",
+    "Ability": "Flash Fire",
+    "AbilityDescription": "Protects against fire moves.  Once one has been blocked, the Pok\u00E9mon\u0027s own Fire moves inflict 1.5\u00D7 damage until it leaves battle.",
+    "Types": [
+      "fire",
+      "steel"
+    ],
+    "Moves": [
+      {
+        "Type": "steel",
+        "Name": "Metal Sound",
+        "Description": "Lowers the target\u0027s Special Defense by two stages.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "fire",
+        "Name": "Lava Plume",
+        "Description": "Has a 30% chance to burn the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "dark",
+        "Name": "Crunch",
+        "Description": "Has a 20% chance to lower the target\u0027s Defense by one stage.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "steel",
+        "Name": "Iron Head",
+        "Description": "Has a 30% chance to make the target flinch.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "water",
+        "fighting"
+      ],
+      "Weak4x": [
+        "ground"
+      ]
+    },
+    "Immunities": [
+      "poison"
+    ]
+  },
+  {
+    "Name": "Giratina\n(Altered)",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/487.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "ghost",
+      "dragon"
+    ],
+    "Moves": [
+      {
+        "Type": "dragon",
+        "Name": "Dragon Claw",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Scary Face",
+        "Description": "Lowers the target\u0027s Speed by two stages.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "ghost",
+        "Name": "Shadow Ball",
+        "Description": "Has a 20% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "rock",
+        "Name": "Ancient Power",
+        "Description": "Has a 10% chance to raise all of the user\u0027s stats by one stage.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ghost",
+        "dark",
+        "ice",
+        "dragon",
+        "fairy"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "normal",
+      "fighting"
+    ]
+  },
+  {
+    "Name": "Cresselia",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/488.png",
+    "Ability": "Levitate",
+    "AbilityDescription": "Evades ground moves.",
+    "Types": [
+      "psychic"
+    ],
+    "Moves": [
+      {
+        "Type": "ice",
+        "Name": "Icy Wind",
+        "Description": "Has a 100% chance to lower the target\u0027s Speed by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fairy",
+        "Name": "Moonblast",
+        "Description": "Has a 30% chance to lower the target\u0027s Special Attack by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Psycho Cut",
+        "Description": "Has an increased chance for a critical hit.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Psyshock",
+        "Description": "Inflicts damage based on the target\u0027s Defense, not Special Defense.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Tornadus\n(Incarnate)",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png",
+    "Ability": "Prankster",
+    "AbilityDescription": "Raises non-damaging moves\u0027 priority by one stage.",
+    "Types": [
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "flying",
+        "Name": "Hurricane",
+        "Description": "Has a 30% chance to confuse the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Agility",
+        "Description": "Raises the user\u0027s Speed by two stages.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "ice",
+        "Name": "Icy Wind",
+        "Description": "Has a 100% chance to lower the target\u0027s Speed by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fire",
+        "Name": "Heat Wave",
+        "Description": "Has a 10% chance to burn the target.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "ground"
+    ]
+  },
+  {
+    "Name": "Thundurus\n(Incarnate)",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/642.png",
+    "Ability": "Prankster",
+    "AbilityDescription": "Raises non-damaging moves\u0027 priority by one stage.",
+    "Types": [
+      "electric",
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "electric",
+        "Name": "Thunder",
+        "Description": "Has a 30% chance to paralyze the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "water",
+        "Name": "Rain Dance",
+        "Description": "Changes the weather to rain for five turns.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "normal",
+        "Name": "Weather Ball",
+        "Description": "If there be weather, this move has doubled power and the weather\u0027s type.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "poison",
+        "Name": "Sludge Wave",
+        "Description": "Has a 10% chance to poison the target.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "rock",
+        "ice"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "ground"
+    ]
+  },
+  {
+    "Name": "Reshiram",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/643.png",
+    "Ability": "Turboblaze",
+    "AbilityDescription": "Bypasses targets\u0027 abilities if they could hinder or prevent moves.",
+    "Types": [
+      "dragon",
+      "fire"
+    ],
+    "Moves": [
+      {
+        "Type": "normal",
+        "Name": "Noble Roar",
+        "Description": "Lowers the target\u0027s Attack and Special Attack by one stage.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Extrasensory",
+        "Description": "Has a 10% chance to make the target flinch.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fire",
+        "Name": "Fusion Flare",
+        "Description": "With Fusion Bolt, inflicts double damage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "dragon",
+        "Name": "Dragon Pulse",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "dragon",
+        "ground",
+        "rock"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Zekrom",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/644.png",
+    "Ability": "Teravolt",
+    "AbilityDescription": "Bypasses targets\u0027 abilities if they could hinder or prevent moves.",
+    "Types": [
+      "dragon",
+      "electric"
+    ],
+    "Moves": [
+      {
+        "Type": "normal",
+        "Name": "Noble Roar",
+        "Description": "Lowers the target\u0027s Attack and Special Attack by one stage.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "normal",
+        "Name": "Slash",
+        "Description": "Has an increased chance for a critical hit.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "electric",
+        "Name": "Fusion Bolt",
+        "Description": "With Fusion Flare, inflicts double damage.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dragon",
+        "Name": "Dragon Claw",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ice",
+        "dragon",
+        "fairy",
+        "ground"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Landorus\n(Incarnate)",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/645.png",
+    "Ability": "Sand Force",
+    "AbilityDescription": "Strengthens rock, ground, and steel moves to 1.3\u00D7 their power during a sandstorm.  Protects against sandstorm damage.",
+    "Types": [
+      "ground",
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "ground",
+        "Name": "Sand Tomb",
+        "Description": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "rock",
+        "Name": "Rock Slide",
+        "Description": "Has a 30% chance to make the target flinch.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "ground",
+        "Name": "Bulldoze",
+        "Description": "Has a 100% chance to lower the target\u0027s Speed by one stage.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "fighting",
+        "Name": "Focus Blast",
+        "Description": "Has a 10% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "water"
+      ],
+      "Weak4x": [
+        "ice"
+      ]
+    },
+    "Immunities": [
+      "electric",
+      "ground"
+    ]
+  },
+  {
+    "Name": "Kyurem",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/646.png",
+    "Ability": "Pressure",
+    "AbilityDescription": "Increases the PP cost of moves targetting the Pok\u00E9mon by one.",
+    "Types": [
+      "dragon",
+      "ice"
+    ],
+    "Moves": [
+      {
+        "Type": "ice",
+        "Name": "Ice Beam",
+        "Description": "Has a 10% chance to freeze the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "normal",
+        "Name": "Hyper Voice",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "ghost",
+        "Name": "Shadow Ball",
+        "Description": "Has a 20% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "normal",
+        "Name": "Scary Face",
+        "Description": "Lowers the target\u0027s Speed by two stages.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "dragon",
+        "fairy",
+        "fighting",
+        "rock",
+        "steel"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Xerneas",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/716.png",
+    "Ability": "Fairy Aura",
+    "AbilityDescription": "Strengthens fairy moves to 1.33\u00D7 their power for all friendly and opposing Pok\u00E9mon.",
+    "Types": [
+      "fairy"
+    ],
+    "Moves": [
+      {
+        "Type": "grass",
+        "Name": "Ingrain",
+        "Description": "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "fairy",
+        "Name": "Dazzling Gleam",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fairy",
+        "Name": "Moonblast",
+        "Description": "Has a 30% chance to lower the target\u0027s Special Attack by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "grass",
+        "Name": "Horn Leech",
+        "Description": "Drains half the damage inflicted to heal the user.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "poison",
+        "steel"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "dragon"
+    ]
+  },
+  {
+    "Name": "Yveltal",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/717.png",
+    "Ability": "Dark Aura",
+    "AbilityDescription": "Strengthens dark moves to 1.33\u00D7 their power for all friendly and opposing Pok\u00E9mon.",
+    "Types": [
+      "dark",
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "dark",
+        "Name": "Taunt",
+        "Description": "For the next few turns, the target can only use damaging moves.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "flying",
+        "Name": "Oblivion Wing",
+        "Description": "Drains 75% of the damage inflicted to heal the user.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "dragon",
+        "Name": "Dragon Rush",
+        "Description": "Has a 20% chance to make the target flinch.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dark",
+        "Name": "Sucker Punch",
+        "Description": "Only works if the target is about to use a damaging move.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "fairy",
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "psychic",
+      "ground"
+    ]
+  },
+  {
+    "Name": "Zygarde\n(50% Forme)",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png",
+    "Ability": "Power Construct",
+    "AbilityDescription": "Transforms 10% or 50% Zygarde into Complete Forme when its HP is below 50%.",
+    "Types": [
+      "dragon",
+      "ground"
+    ],
+    "Moves": [
+      {
+        "Type": "ground",
+        "Name": "Thousand Arrows",
+        "Description": "Grounds the target, and hits even Flying-type or levitating Pok\u00E9mon.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "ground",
+        "Name": "Land\u0027s Wrath",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dragon",
+        "Name": "Dragon Pulse",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "normal",
+        "Name": "Bind",
+        "Description": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "dragon",
+        "fairy"
+      ],
+      "Weak4x": [
+        "ice"
+      ]
+    },
+    "Immunities": [
+      "electric"
+    ]
+  },
+  {
+    "Name": "Tapu Koko",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png",
+    "Ability": "Electric Surge",
+    "AbilityDescription": "When this Pok\u00E9mon enters battle, it changes the terrain to Electric Terrain.",
+    "Types": [
+      "electric",
+      "fairy"
+    ],
+    "Moves": [
+      {
+        "Type": "electric",
+        "Name": "Thunderbolt",
+        "Description": "Has a 10% chance to paralyze the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "normal",
+        "Name": "Quick Attack",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "flying",
+        "Name": "Brave Bird",
+        "Description": "User receives 1/3 the damage inflicted in recoil.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dark",
+        "Name": "Taunt",
+        "Description": "For the next few turns, the target can only use damaging moves.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ground",
+        "poison"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "dragon"
+    ]
+  },
+  {
+    "Name": "Tapu Lele",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png",
+    "Ability": "Psychic Surge",
+    "AbilityDescription": "When this Pok\u00E9mon enters battle, it changes the terrain to Psychic Terrain.",
+    "Types": [
+      "psychic",
+      "fairy"
+    ],
+    "Moves": [
+      {
+        "Type": "psychic",
+        "Name": "Psychic",
+        "Description": "Has a 10% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fairy",
+        "Name": "Play Rough",
+        "Description": "Has a 10% chance to lower the target\u0027s Attack by one stage.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Magic Room",
+        "Description": "Negates held items for five turns.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "fairy",
+        "Name": "Charm",
+        "Description": "Lowers the target\u0027s Attack by two stages.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ghost",
+        "poison",
+        "steel"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "dragon"
+    ]
+  },
+  {
+    "Name": "Tapu Bulu",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/787.png",
+    "Ability": "Grassy Surge",
+    "AbilityDescription": "When this Pok\u00E9mon enters battle, it changes the terrain to Grassy Terrain.",
+    "Types": [
+      "grass",
+      "fairy"
+    ],
+    "Moves": [
+      {
+        "Type": "fighting",
+        "Name": "Superpower",
+        "Description": "Lowers the user\u0027s Attack and Defense by one stage after inflicting damage.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "bug",
+        "Name": "Megahorn",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "grass",
+        "Name": "Wood Hammer",
+        "Description": "User receives 1/3 the damage inflicted in recoil.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Scary Face",
+        "Description": "Lowers the target\u0027s Speed by two stages.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "flying",
+        "fire",
+        "ice",
+        "steel"
+      ],
+      "Weak4x": [
+        "poison"
+      ]
+    },
+    "Immunities": [
+      "dragon"
+    ]
+  },
+  {
+    "Name": "Tapu Fini",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/788.png",
+    "Ability": "Misty Surge",
+    "AbilityDescription": "When this Pok\u00E9mon enters battle, it changes the terrain to Misty Terrain.",
+    "Types": [
+      "water",
+      "fairy"
+    ],
+    "Moves": [
+      {
+        "Type": "water",
+        "Name": "Whirlpool",
+        "Description": "Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "water",
+        "Name": "Water Pulse",
+        "Description": "Has a 20% chance to confuse the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "water",
+        "Name": "Brine",
+        "Description": "Has double power against Pok\u00E9mon that have less than half their max HP remaining.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fairy",
+        "Name": "Moonblast",
+        "Description": "Has a 30% chance to lower the target\u0027s Special Attack by one stage.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "grass",
+        "electric",
+        "poison"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "dragon"
+    ]
+  },
+  {
+    "Name": "Solgaleo",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png",
+    "Ability": "Full Metal Body",
+    "AbilityDescription": "Other Pok\u00E9mon cannot lower this Pok\u00E9mon\u0027s stats.",
+    "Types": [
+      "psychic",
+      "steel"
+    ],
+    "Moves": [
+      {
+        "Type": "psychic",
+        "Name": "Zen Headbutt",
+        "Description": "Has a 20% chance to make the target flinch.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "fire",
+        "Name": "Fire Spin",
+        "Description": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "steel",
+        "Name": "Iron Tail",
+        "Description": "Has a 30% chance to lower the target\u0027s Defense by one stage.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Noble Roar",
+        "Description": "Lowers the target\u0027s Attack and Special Attack by one stage.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ghost",
+        "dark",
+        "ground",
+        "fire"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "poison"
+    ]
+  },
+  {
+    "Name": "Lunala",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png",
+    "Ability": "Shadow Shield",
+    "AbilityDescription": "When this Pok\u00E9mon has full HP, regular damage from moves is halved.",
+    "Types": [
+      "psychic",
+      "ghost"
+    ],
+    "Moves": [
+      {
+        "Type": "ghost",
+        "Name": "Shadow Ball",
+        "Description": "Has a 20% chance to lower the target\u0027s Special Defense by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "fairy",
+        "Name": "Moonblast",
+        "Description": "Has a 30% chance to lower the target\u0027s Special Attack by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Magic Coat",
+        "Description": "Reflects back the first effect move used on the user this turn.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "normal",
+        "Name": "Swift",
+        "Description": "Never misses.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [],
+      "Weak4x": [
+        "ghost",
+        "dark"
+      ]
+    },
+    "Immunities": [
+      "normal",
+      "fighting"
+    ]
+  },
+  {
+    "Name": "Nihilego",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/793.png",
+    "Ability": "Beast Boost",
+    "AbilityDescription": "Raises this Pok\u00E9mon\u0027s highest stat by one stage when it faints another Pok\u00E9mon.",
+    "Types": [
+      "rock",
+      "poison"
+    ],
+    "Moves": [
+      {
+        "Type": "psychic",
+        "Name": "Wonder Room",
+        "Description": "All Pok\u00E9mon\u0027s Defense and Special Defense are swapped for 5 turns.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "poison",
+        "Name": "Sludge Wave",
+        "Description": "Has a 10% chance to poison the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "dark",
+        "Name": "Brutal Swing",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "poison",
+        "Name": "Acid Spray",
+        "Description": "Lowers the target\u0027s Special Defense by two stages.",
+        "DamageType": "special"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "steel",
+        "water",
+        "psychic"
+      ],
+      "Weak4x": [
+        "ground"
+      ]
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Buzzwole",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/794.png",
+    "Ability": "Beast Boost",
+    "AbilityDescription": "Raises this Pok\u00E9mon\u0027s highest stat by one stage when it faints another Pok\u00E9mon.",
+    "Types": [
+      "bug",
+      "fighting"
+    ],
+    "Moves": [
+      {
+        "Type": "fighting",
+        "Name": "Power-up Punch",
+        "Description": "Raises the user\u0027s Attack by one stage after inflicting damage.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dark",
+        "Name": "Taunt",
+        "Description": "For the next few turns, the target can only use damaging moves.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "bug",
+        "Name": "Leech Life",
+        "Description": "Drains half the damage inflicted to heal the user.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "fighting",
+        "Name": "Dynamic Punch",
+        "Description": "Has a 100% chance to confuse the target.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "fire",
+        "psychic",
+        "fairy"
+      ],
+      "Weak4x": [
+        "flying"
+      ]
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Pheromosa",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/795.png",
+    "Ability": "Beast Boost",
+    "AbilityDescription": "Raises this Pok\u00E9mon\u0027s highest stat by one stage when it faints another Pok\u00E9mon.",
+    "Types": [
+      "bug",
+      "fighting"
+    ],
+    "Moves": [
+      {
+        "Type": "fighting",
+        "Name": "High Jump Kick",
+        "Description": "If the user misses, it takes half the damage it would have inflicted in recoil.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Swift",
+        "Description": "Never misses.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "dark",
+        "Name": "Throat Chop",
+        "Description": "Prevents the target from using sound-based moves for two turns.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "bug",
+        "Name": "Lunge",
+        "Description": "Lowers the target\u0027s Attack by one stage after inflicting damage.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "fire",
+        "psychic",
+        "fairy"
+      ],
+      "Weak4x": [
+        "flying"
+      ]
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Xurkitree",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/796.png",
+    "Ability": "Beast Boost",
+    "AbilityDescription": "Raises this Pok\u00E9mon\u0027s highest stat by one stage when it faints another Pok\u00E9mon.",
+    "Types": [
+      "electric"
+    ],
+    "Moves": [
+      {
+        "Type": "grass",
+        "Name": "Power Whip",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "electric",
+        "Name": "Discharge",
+        "Description": "Has a 30% chance to paralyze the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "electric",
+        "Name": "Eerie Impulse",
+        "Description": "Lowers the target\u0027s Special Attack by two stages.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "dark",
+        "Name": "Brutal Swing",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ground"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Celesteela",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/797.png",
+    "Ability": "Beast Boost",
+    "AbilityDescription": "Raises this Pok\u00E9mon\u0027s highest stat by one stage when it faints another Pok\u00E9mon.",
+    "Types": [
+      "steel",
+      "flying"
+    ],
+    "Moves": [
+      {
+        "Type": "grass",
+        "Name": "Leech Seed",
+        "Description": "Seeds the target, stealing HP from it every turn.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "rock",
+        "Name": "Smack Down",
+        "Description": "Removes any immunity to Ground damage.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "steel",
+        "Name": "Gyro Ball",
+        "Description": "Power raises when the user has lower Speed, up to a maximum of 150.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "ground",
+        "Name": "Earthquake",
+        "Description": "Inflicts regular damage and can hit Dig users.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "fire",
+        "electric"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "poison",
+      "ground"
+    ]
+  },
+  {
+    "Name": "Kartana",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/798.png",
+    "Ability": "Beast Boost",
+    "AbilityDescription": "Raises this Pok\u00E9mon\u0027s highest stat by one stage when it faints another Pok\u00E9mon.",
+    "Types": [
+      "grass",
+      "steel"
+    ],
+    "Moves": [
+      {
+        "Type": "fighting",
+        "Name": "Vacuum Wave",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "flying",
+        "Name": "Air Cutter",
+        "Description": "Has an increased chance for a critical hit.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "grass",
+        "Name": "Leaf Blade",
+        "Description": "Has an increased chance for a critical hit.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Swords Dance",
+        "Description": "Raises the user\u0027s Attack by two stages.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "fighting"
+      ],
+      "Weak4x": [
+        "fire"
+      ]
+    },
+    "Immunities": [
+      "poison"
+    ]
+  },
+  {
+    "Name": "Guzzlord",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/799.png",
+    "Ability": "Beast Boost",
+    "AbilityDescription": "Raises this Pok\u00E9mon\u0027s highest stat by one stage when it faints another Pok\u00E9mon.",
+    "Types": [
+      "dark",
+      "dragon"
+    ],
+    "Moves": [
+      {
+        "Type": "dragon",
+        "Name": "Dragon Rush",
+        "Description": "Has a 20% chance to make the target flinch.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "ground",
+        "Name": "Stomping Tantrum",
+        "Description": "Has double power if the user\u0027s last move failed.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dark",
+        "Name": "Brutal Swing",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Mega Punch",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "fighting",
+        "bug",
+        "ice",
+        "dragon"
+      ],
+      "Weak4x": [
+        "fairy"
+      ]
+    },
+    "Immunities": [
+      "psychic"
+    ]
+  },
+  {
+    "Name": "Necrozma",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/800.png",
+    "Ability": "Prism Armor",
+    "AbilityDescription": "Reduces super-effective damage to 0.75\u00D7.",
+    "Types": [
+      "psychic"
+    ],
+    "Moves": [
+      {
+        "Type": "psychic",
+        "Name": "Psycho Cut",
+        "Description": "Has an increased chance for a critical hit.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "electric",
+        "Name": "Charge Beam",
+        "Description": "Has a 70% chance to raise the user\u0027s Special Attack by one stage.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "rock",
+        "Name": "Power Gem",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "steel",
+        "Name": "Autotomize",
+        "Description": "Raises the user\u0027s Speed by two stages and halves the user\u0027s weight.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": []
+  },
+  {
+    "Name": "Stakataka",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/805.png",
+    "Ability": "Beast Boost",
+    "AbilityDescription": "Raises this Pok\u00E9mon\u0027s highest stat by one stage when it faints another Pok\u00E9mon.",
+    "Types": [
+      "rock",
+      "steel"
+    ],
+    "Moves": [
+      {
+        "Type": "rock",
+        "Name": "Rock Slide",
+        "Description": "Has a 30% chance to make the target flinch.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "normal",
+        "Name": "Double-edge",
+        "Description": "User receives 1/3 the damage inflicted in recoil.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dark",
+        "Name": "Brutal Swing",
+        "Description": "Inflicts regular damage with no additional effect.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "steel",
+        "Name": "Autotomize",
+        "Description": "Raises the user\u0027s Speed by two stages and halves the user\u0027s weight.",
+        "DamageType": "status"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "water"
+      ],
+      "Weak4x": [
+        "fighting",
+        "ground"
+      ]
+    },
+    "Immunities": [
+      "poison"
+    ]
+  },
+  {
+    "Name": "Blacephalon",
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/806.png",
+    "Ability": "Beast Boost",
+    "AbilityDescription": "Raises this Pok\u00E9mon\u0027s highest stat by one stage when it faints another Pok\u00E9mon.",
+    "Types": [
+      "fire",
+      "ghost"
+    ],
+    "Moves": [
+      {
+        "Type": "ghost",
+        "Name": "Shadow Claw",
+        "Description": "Has an increased chance for a critical hit.",
+        "DamageType": "physical"
+      },
+      {
+        "Type": "dark",
+        "Name": "Taunt",
+        "Description": "For the next few turns, the target can only use damaging moves.",
+        "DamageType": "status"
+      },
+      {
+        "Type": "fire",
+        "Name": "Fire Blast",
+        "Description": "Has a 10% chance to burn the target.",
+        "DamageType": "special"
+      },
+      {
+        "Type": "psychic",
+        "Name": "Zen Headbutt",
+        "Description": "Has a 20% chance to make the target flinch.",
+        "DamageType": "physical"
+      }
+    ],
+    "IsGmax": false,
+    "Weaknesses": {
+      "Weak2x": [
+        "ground",
+        "rock",
+        "water",
+        "ghost",
+        "dark"
+      ],
+      "Weak4x": []
+    },
+    "Immunities": [
+      "normal",
+      "fighting"
+    ]
+  }
+]
