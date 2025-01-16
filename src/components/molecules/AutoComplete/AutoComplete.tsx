@@ -12,34 +12,24 @@ const AutoComplete: FC<AutocompleteProps> = ({options, onChange}) => {
     const [size, setSize] = useState(defaultSize);
     return (
         <div className="flex flex-col items-center">
-            <div className="w-full max-w-md mt-7 relative">
-                <input
-                    type="search"
-                    className="rounded-lg bg-neutral-600 p-1.5 text-neutral-100 w-full"
-                    value={input}
-                    onChange={event => {
-                        setInput(event.target.value); 
-                        const opts = filterOptions(options, event.target.value)
-                        setFilteredOptions(opts);
-                        setSize(handleSize(opts));
-                    }}
-                    placeholder="Select Dynamax Legendary"
-                    onClick={() => {
-                        if (filteredOptions.length === 0 && !input) {
-                            setFilteredOptions(options)
-                        }
-                    }} 
-                />
-                <button className="absolute right-2 top-1.5 text"
-                    onClick={event => {
-                        setInput("");
-                        setSize(defaultSize);
-                        setFilteredOptions([]);
-                    }}
-                >
-                    X
-                </button>
-            </div>
+            <input
+                type="search"
+                className="rounded-lg bg-neutral-600 p-1.5 text-neutral-100 w-full max-w-md mt-7"
+                value={input}
+                onChange={event => {
+                    setInput(event.target.value); 
+                    const opts = filterOptions(options, event.target.value)
+                    setFilteredOptions(opts);
+                    setSize(handleSize(opts));
+                }}
+                placeholder="Select Dynamax Legendary"
+                onClick={() => {
+                    if (filteredOptions.length === 0 && !input) {
+                        setFilteredOptions(options)
+                    }
+                }} 
+            />
+
             { filteredOptions.length > 0 &&
                 <select 
                     className="bg-neutral-600 appearance-none w-full max-w-sm absolute mt-16 rounded-b-lg p-1.5" 
