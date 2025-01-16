@@ -18,8 +18,9 @@ Check it out here [https://dynamax-adventures-helper.github.io/](https://dynamax
 ## Future improvements
 - Update the select/dropdown to be a bit more intuitive
 - Update UI around the Rental Counters
-- Make selecting a rental pokemon on mobile not continue to darken it
 - Update more components to be in Storybook
+- Better handling of support pokemon
+- More advanced tier listing
 
 
 ## Stack
