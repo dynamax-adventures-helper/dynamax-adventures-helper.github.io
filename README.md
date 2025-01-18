@@ -1,7 +1,10 @@
 # dynamax-adventures-helper.github.io
-Awesome tool to assist people with dynamax adventures hosted on Github Pages
+Tool to assist people with dynamax adventures hosted on Github Pages
 
 Check it out here [https://dynamax-adventures-helper.github.io/](https://dynamax-adventures-helper.github.io/)
+
+## Support
+[Ko-fi](https://ko-fi.com/seanpino)
 
 ## Features
 - Search/select a dynamax legendary you are going for
@@ -39,3 +42,4 @@ Check it out here [https://dynamax-adventures-helper.github.io/](https://dynamax
 `npm run dev` for dev
 
 `npm start` for normal use
+

@@ -3,6 +3,7 @@ import { useState } from "react";
 import Autocomplete from "@/components/molecules/AutoComplete/AutoComplete";
 import Pokemon from "@/components/organisms/Pokemon/Pokemon";
 import RentalPokemonContainer from "@/components/organisms/RentalPokemonContainer/RentalPokemonContainer";
+import Button from "@/components/atoms/Button/Button";
 
 const legendaryPokemon: string[] = [
   "Articuno",
@@ -59,8 +60,8 @@ export default function Home() {
 
   return (
     <div>
-      <main>
-        <div>
+      <main className="flex flex-col justify-center">
+        <div className="flex flex-col min-h-[90vh]">
           <Autocomplete
             onChange={(event, newValue) => setValue(newValue || "")}
             options={legendaryPokemon}
@@ -69,15 +70,17 @@ export default function Home() {
           <Pokemon
             name={value}
           />
-
-        </div>
-        <div>
           { value && <RentalPokemonContainer 
             name={value}
           />}
         </div>
+        <div className="p-4 text-white">
+          <Button/>
+        </div>
       </main>
+
     </div>
+
   );
 }
 
